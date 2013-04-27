@@ -1,0 +1,16 @@
+[
+{
+  "modid": "RainbowWood",
+  "name": "RainbowWood",
+  "version": "1.0",
+  "description": "Colorful wood!",
+  "credits": "Created by Lomeli12",
+  "mcversion": "1.5.x",
+  "authors": [ "Lomeli12" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+         "mod_MinecraftForge"
+]
+}
+]

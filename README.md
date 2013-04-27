@@ -3,10 +3,6 @@ Rainbow Wood
 
 All this mod does is add 16 types of colored wood for your decoration needs.
  
-# Download the mod
-
-Current Build: Alpha 1.0
- 
 ## Info
 
 - Requires Minecraft 1.5.1

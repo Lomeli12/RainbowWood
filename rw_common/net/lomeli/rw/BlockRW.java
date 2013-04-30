@@ -21,7 +21,9 @@ public class BlockRW extends Block
 	public BlockRW(int par1) {
 		super(par1, Material.wood);
 		this.setCreativeTab(CreativeTabs.tabBlock);
-		
+		this.setHardness(2.0F);
+		this.setResistance(5.0F);
+		this.setStepSound(Block.soundWoodFootstep);
 	}
 	
 	public Icon getIcon(int par1, int par2)

@@ -3,6 +3,7 @@ package net.lomeli.rw;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.Configuration;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.oredict.OreDictionary;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -51,6 +52,8 @@ public class RainbowWood
 			OreDictionary.registerOre("woodPlank", (new ItemStack(rwWood,1,i)));
 			OreDictionary.registerOre("plankWood", (new ItemStack(rwWood,1,i)));
 		}
+		
+		MinecraftForge.setBlockHarvestLevel(rwWood, "axe", 0);
 		
 		proxy.renderThings();
     }
